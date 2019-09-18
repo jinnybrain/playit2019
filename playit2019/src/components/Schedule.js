@@ -5,9 +5,10 @@ class Schedule extends Component {
         return (
             <div className={'container'} style={{marginTop:'30px', marginBottom:'50px'}}>
                 <div className={'col-lg-12 text-left'}>
-                    <h2 class="section-heading text-uppercase" style={{color:'#ff5d00'}}>Schedule</h2>
+                    <h2 className="section-heading text-uppercase" style={{color:'#ff5d00'}}>Schedule</h2>
                     <div className ={'row'}>
                         <table className={'container'} style={{marginTop:'30px'}}>
+                        <tbody>
                             <tr style={{borderTop:'solid 1px #d9d9d9', height:'75px'}}>
                                     <td style={{marginRight:'10px'}}>
                                     ~ 09:00
@@ -135,7 +136,7 @@ class Schedule extends Component {
                                     </div>
                                 </td>
                             </tr>
-                        
+                            </tbody>
                         </table>
                     </div>
                 </div>
