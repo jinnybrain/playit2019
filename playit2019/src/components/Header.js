@@ -27,10 +27,18 @@ class Header extends Component {
                     </div>
                  </div>
             </nav>
+            <header>
+                
+            </header>
             <header className={'masthead'}>
+                
                 <div className={'container'}>
+
                     <div className={'intro-text'}>
-                        <div className={'intro-heading text-uppercase'} style={{textAlign:'center'}}>Play It ! 2019</div>
+                        {/* <div>
+                            <img style={{width:'400px', heiht:'200px' }} src="img/logo/playit.png"/>
+                        </div> */}
+                        <div className={'intro-heading text-uppercase'} style={{textAlign:'center'}}>Play It ! 2019</div> 
                     </div>
                 </div>
             </header>
