@@ -1,0 +1,45 @@
+[
+    {
+        "name" :"이현진",
+        "imagePath" : "img/speaker/speaker_codecaffein.png",
+        "position" : "Senior Software Engineer",
+        "part":"연구실",
+        "team" : "기반기술개발팀"
+      }, 
+      {
+        "name" :"김정훈",
+        "imagePath" : "img/speaker/speaker_jephrix.png",
+        "position" : "Senior Software Engineer",
+        "part":"솔루션 사업부 개발파트",
+        "team" : "솔루션개발팀"
+      },     
+      {
+        "name" :"전강태",
+        "imagePath" : "img/speaker/speaker_lewisjhon.png",
+        "position" : "Senior Software Engineer",
+        "part":"솔루션 사업부 개발파트",
+        "team" : "약국개발팀"
+      },     
+      {
+        "name" :"김동욱",
+        "imagePath" : "img/speaker/speaker_kdw115.png",
+        "position" : "Senior Software Engineer",
+        "part":"연구실",
+        "team" : "클라우드EMR팀"
+      }, 
+      {
+        "name" :"김분석",
+        "imagePath" : "img/speaker/speaker_jephrix.png",
+        "position" : "Software Engineer",
+        "part":"전략사업부 전력개발파트",
+        "team" : "데이터분석팀"
+      }, 
+      {
+        "name" :"김클라우드",
+        "imagePath" : "img/speaker/speaker_jephrix.png",
+        "position" : "Principal Software Engineer",
+        "part":"솔루션 사업부 개발파트",
+        "team" : ""
+      }
+      
+]

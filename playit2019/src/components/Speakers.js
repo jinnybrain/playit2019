@@ -1,48 +1,21 @@
 import React, { Component } from 'react';
+import Speaker from './Speaker';
 
 class Speakers extends Component {
     render() {
+        const { data } = this.props;
+        let index = 0 ;
+        const speakers = data.map ((info, index) => 
+            (<Speaker key={index} info={info}/>)
+        );
+
         return (
+
             <div className={'container'} style={{marginTop:'50px', marginBottom: '150px'}}>
                 <div className={'col-lg-12 text-left'}>
                     <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>Speakers</h2>
                     <div className={'row'} style={{marginTop:'50px'}}>
-                        <div className={'col-sm-4 text-center'} style={{marginTop:'30px'}}>
-                            <img className={"mx-auto rounded-circle"} style={{border:'7px solid rgba(0,0,0,.1)', width:'225px', height:'225px'}} src="img/speaker/speaker_codecaffein.png" alt=""/>
-                            <h4 style={{marginTop:'15px'}}>이현진</h4>
-                            <h5>Senior Software Engineer</h5>
-                            <h6 className={'text-muted'}>연구실 기반기술개발팀</h6>
-                        </div>
-                        <div className={'col-sm-4 text-center'} style={{marginTop:'30px'}}>
-                            <img className={"mx-auto rounded-circle"} style={{border:'7px solid rgba(0,0,0,.1)', width:'225px', height:'225px'}} src="img/speaker/speaker_jephrix.png" alt=""/>
-                            <h4 style={{marginTop:'15px'}}>김정훈</h4>
-                            <h5>Senior Software Engineer</h5>
-                            <h6 className={'text-muted'}>솔루션 사업부 개발파트 솔루션개발팀</h6>
-                        </div>
-                        <div className={'col-sm-4 text-center'} style={{marginTop:'30px'}}>
-                            <img className={"mx-auto rounded-circle"} style={{border:'7px solid rgba(0,0,0,.1)', width:'225px', height:'225px'}} src="img/speaker/speaker_lewisjhon.png" alt=""/>\
-                            <h4 style={{marginTop:'15px'}}>전강태</h4>
-                            <h5> Senior Software Engineer </h5>
-                            <h6 className={'text-muted'}>솔루션 사업부 개발파트 약국개발팀</h6>
-                        </div>
-                        <div className={'col-sm-4 text-center'} style={{marginTop:'30px'}}>
-                            <img className={"mx-auto rounded-circle"} style={{border:'7px solid rgba(0,0,0,.1)', width:'225px', height:'225px'}} src="img/speaker/speaker_kdw115.png" alt=""/>
-                            <h4 style={{marginTop:'15px'}}>김동욱</h4>
-                            <h5>Senior Software Engineer</h5>
-                            <h6 className={'text-muted'}>연구실 클라우드EMR팀</h6>
-                        </div>
-                        <div className={'col-sm-4 text-center'} style={{marginTop:'30px'}}>
-                            <img className={"mx-auto rounded-circle"} style={{border:'7px solid rgba(0,0,0,.1)', width:'225px', height:'225px'}} src="img/team/1.jpg" alt=""/>
-                            <h4 style={{marginTop:'15px'}}>김분석</h4>
-                            <h5>Software Engineer</h5>
-                            <h6 className={'text-muted'}>전략사업부 전략개발파트 데이터분석팀</h6>
-                        </div>
-                        <div className={'col-sm-4 text-center'} style={{marginTop:'30px'}}>
-                            <img className={"mx-auto rounded-circle"} style={{border:'7px solid rgba(0,0,0,.1)', width:'225px', height:'225px'}} src="img/team/2.jpg" alt=""/>
-                            <h4 style={{marginTop:'15px'}}>김클라우드</h4>
-                            <h5>Principal Software Engineer</h5>
-                            <h6 className={'text-muted'}>솔루션 사업부 개발파트</h6>
-                        </div>
+                        {speakers}
                     </div>
                 </div>
             </div>

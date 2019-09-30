@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MainLogo from '../img/logo/playit2019_neon.png'
 
 class Header extends Component {
     render() {
@@ -35,10 +36,9 @@ class Header extends Component {
                 <div className={'container'}>
 
                     <div className={'intro-text'}>
-                        {/* <div>
-                            <img style={{width:'400px', heiht:'200px' }} src="img/logo/playit.png"/>
-                        </div> */}
-                        <div className={'intro-heading text-uppercase'} style={{textAlign:'center'}}>Play It ! 2019</div> 
+                         <div>
+                            <img src={MainLogo} style={{width:'500px'}} />
+                        </div> 
                     </div>
                 </div>
             </header>
