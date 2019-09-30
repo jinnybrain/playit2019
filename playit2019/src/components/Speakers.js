@@ -10,7 +10,6 @@ class Speakers extends Component {
         );
 
         return (
-
             <div className={'container'} style={{marginTop:'50px', marginBottom: '150px'}}>
                 <div className={'col-lg-12 text-left'}>
                     <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>Speakers</h2>

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import { inject, observer } from 'mobx-react';
 
 class Speaker extends Component {
 
     showModal () {
         const modal = document.getElementById('sessionDetail').style.display = 'block';
+       // this.SetSpeaker(this.props.info.imagePath.substring (this.props.info.imagePath.lastIndexOf('/')+1).replace('.png',''));
     }
 
     render() {
@@ -21,4 +23,7 @@ class Speaker extends Component {
     }
 }
 
-export default Speaker;
+
+export default inject(({ market }) => ({
+    SetSpeaker: market.SetSpeaker
+  }))(observer(Speaker));
