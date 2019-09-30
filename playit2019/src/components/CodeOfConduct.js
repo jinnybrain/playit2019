@@ -14,10 +14,10 @@ class CodeOfConduct extends Component {
                             <h6>- 약소한 음주가 예상됩니다. 차량 운전자는 반드시 논알콜 음료를 이용해 주세요. 🍺</h6>
                         </div>
                         <div className={'col-sm-12 text-left'} >
-                            <h6>- 곤란한 일이 생기면 운영진 (동아리 멤버)에게 말씀해 주세요. 😥</h6>
+                            <h6>- 곤란한 일이 생기면 운영진이나 진행요원에게 말씀해 주세요. 😥</h6>
                         </div>
                         <div className={'col-sm-12 text-left'} >
-                            <h6>- 쓰레기는 반드시 분리하여 배출해 주세요. ♻</h6>
+                            <h6>- 쓰레기는 반드시 지정된 장소에 버리고, 재활용에 신경써주세요. ♻</h6>
                         </div>
                     </div>
                 </div>
