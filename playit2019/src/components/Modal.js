@@ -24,7 +24,7 @@ class Modal extends Component {
         const sessionDetail = sessions;
 
         return (
-            <div id="sessionDetail" style={{textAlign:'center'}}>
+            <div id="sessionDetail" style={{textAlign:'center', display:'none'}}>
                 <div className={'portfolio-modal modal fade show'} style={{marginLeft:'auto', marginRight:'auto', margintop:'auto', width:'50%', float:'left', left:'25%', display:'block', top:'10%'}}>
                     <div style={{verticalAlign:'middle'}}>
                         <div className={'modal-content'} style={{textAlign:'left'}}>
