@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class CodeOfConduct extends Component {
     render() {
         return (
-            <div className={'container'} style={{marginTop:'50px'}}>
+            <div className={'container'} style={{marginTop:'150px', marginBottom:'50px'}}>
                 <div className={'col-lg-12 text-left'}>
                     <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>Code of Conduct (참석자 행동강령)</h2>
                     <div className={'row'} style={{color:'#312d3e', marginTop:'20px'}} >

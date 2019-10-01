@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Schedule extends Component {
     render() {
         return (
-            <div className={'container'} style={{marginTop:'30px', marginBottom:'50px'}}>
+            <div className={'container'} style={{marginTop:'150px', marginBottom:'50px'}}>
                 <div className={'col-lg-12 text-left'}>
                     <h2 className="section-heading text-uppercase" style={{color:'#ff5d00'}}>Schedule</h2>
                     <div className ={'row'}>
