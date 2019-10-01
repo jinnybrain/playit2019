@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MainLogo from '../img/logo/playit_breath.gif'
+import MainLogo from '../img/logo/upper_playit_ms_bounce.gif'
 
 class Header extends Component {
     render() {
@@ -37,7 +37,7 @@ class Header extends Component {
 
                     <div className={'intro-text'}>
                          <div>
-                            <img src={MainLogo} style={{width:'435px'}} />
+                            <img src={MainLogo} style={{width:'400px'}} />
                         </div> 
                     </div>
                 </div>
