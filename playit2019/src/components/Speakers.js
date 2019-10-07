@@ -21,5 +21,4 @@ class Speakers extends Component {
         );
     }
 }
-
 export default Speakers;

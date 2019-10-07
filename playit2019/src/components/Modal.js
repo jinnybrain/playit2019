@@ -35,9 +35,9 @@ const Modal = ({sessionDetail}) => {
                             <div style={{marginLeft:'20px', marginRight:'20px'}}>
                             <h4>{sessionDetail.subject}</h4>
                             {contextList}
-                            <div>
+                            <div style={{marginTop:'40px'}}>
                                 <img style={{float:'left' , height:'100px'}} src={imagePath} />
-                                <div style={{float:'left',  marginLeft:'10px'}}>
+                                <div style={{float:'left',  marginLeft:'25px'}}>
                                 <h5>{sessionDetail.speakerName} </h5><h6>{sessionDetail.part}  {sessionDetail.team}</h6>
                                 <p>{sessionDetail.role} </p></div>
                             </div>
