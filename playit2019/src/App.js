@@ -18,11 +18,11 @@ render(){
     <React.Fragment>
       <Header/>
       <About/>
-      <CodeOfConduct/>
-      <Speakers data={SpeakersInfo} />
       <Schedule/>
-      <Celebration/>
+      <Speakers data={SpeakersInfo} />
       <Location/>
+      <CodeOfConduct/>
+      <Celebration/>
       <Sponser/>
       <Modal/>
     </React.Fragment>
