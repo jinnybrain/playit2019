@@ -1,22 +1,22 @@
 import {observable, action, computed, decorate} from 'mobx';
+import SessionDetail from '../information/sessionDetail.json';
 
 export default class MarketStore {
 
-    speaker = '';
+    detail =  SessionDetail.find(x=> x.speaker === 'speaker_codecaffein');
 
-    get GetSpeaker(){
-        return this.speaker;
+    get GetSessionDetail(){
+        return this.detail;
     }
 
-    SetSpeaker(name){
-        this.speaker = name;
+    SetSessionDetail = (name) =>{
+        const newSessionDetail = SessionDetail.find(x => x.speaker == name);
+        this.detail = newSessionDetail;
     }
-    
 }
 
 decorate ( MarketStore, {
-    speaker: observable,
-    GetSpeaker : computed,
-    SetSpeaker : action
-
+    detail: observable,
+    GetSessionDetail : computed,
+    SetSessionDetail : action
 })

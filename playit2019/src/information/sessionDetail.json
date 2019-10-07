@@ -1,6 +1,6 @@
 [
     {
-        "speaker" : "code_caffein",
+        "speaker" : "speaker_codecaffein",
         "speakerName" : "이현진",
         "part" : "연구실",
         "team" : "기반기술개발팀",
@@ -14,11 +14,11 @@
         ]
     },
     {
-        "speaker" : "speaker_lewisjhon",
+        "speaker" : "speaker_jephrix",
         "speakerName" : "김정훈",
         "part" : "솔루션사업부 개발파트",
         "team" : "솔루션개발팀",
-        "role" : "기반기술개발팀의 어플리케이션 전반과 챗봇을 담당하고 있습니다.",
+        "role" : "하시는 업무를 간단하게 입력해 주세요.",
         "subject" : "구슬 vs 목걸이", 
         "context" : [
             {
@@ -37,17 +37,55 @@
         "speakerName" : "김동욱",
         "part" : "연구실",
         "team" : "클라우드EMR팀",
-        "role" : "기반기술개발팀의 어플리케이션 전반과 챗봇을 담당하고 있습니다.",
-        "subject" : "MS Azure Cloud 기반 웹어플리케이션 개발기", 
+        "role" : "하시는 업무를 간단하게 입력해 주세요.",
+        "subject" : "모바일 앱에 재미료 한 스푼", 
         "context" : [
             {
-                "value" : "본 강연에서는 최근 NLP의 큰 패러다임 중 하나인 Pre-trained model을 한국어에 적용하며 얻은 여러 인사이트와 엔지니어링적인 이슈, 그리고 여러 실험 결과를 개발자분들께 공유해드리는 자리가 될 것입니다"
+                "value" : "컨텐츠 내용을 입력하여 주세요."
             },
             {
-                "value" : "본 강연에서는 최근 NLP의 큰 패러다임 중 하나인 Pre-trained model을 한국어에 적용하며 얻은 여러 인사이트와 엔지니어링적인 이슈, 그리고 여러 실험 결과를 개발자분들께 공유해드리는 자리가 될 것입니다"
+                "value" : "컨텐츠 내용을 입력하여 주세요."
             },
             {
-                "value" : "본 강연에서는 최근 NLP의 큰 패러다임 중 하나인 Pre-trained model을 한국어에 적용하며 얻은 여러 인사이트와 엔지니어링적인 이슈, 그리고 여러 실험 결과를 개발자분들께 공유해드리는 자리가 될 것입니다"
+                "value" : "컨텐츠 내용을 입력하여 주세요."
+            }
+        ]
+    },
+    {
+        "speaker" : "speaker_kimesoo",
+        "speakerName" : "김의수",
+        "part" : "솔루션사업부 개발파트",
+        "team" : "제품개발팀",
+        "role" : "하시는 업무를 간단하게 입력해 주세요.",
+        "subject" : "왜 우리는 원격진료를 하지 않는가?", 
+        "context" : [
+            {
+                "value" : "컨텐츠 내용을 입력하여 주세요."
+            },
+            {
+                "value" : "컨텐츠 내용을 입력하여 주세요."
+            },
+            {
+                "value" : "컨텐츠 내용을 입력하여 주세요."
+            }
+        ]
+    },
+    {
+        "speaker" : "speaker_lewisjhon",
+        "speakerName" : "전강태",
+        "part" : "솔루션사업부 개발파트",
+        "team" : "약국개발팀",
+        "role" : "하시는 업무를 간단하게 입력해 주세요.",
+        "subject" : "미술 vs 프로그래밍", 
+        "context" : [
+            {
+                "value" : "컨텐츠 내용을 입력하여 주세요."
+            },
+            {
+                "value" : "컨텐츠 내용을 입력하여 주세요."
+            },
+            {
+                "value" : "컨텐츠 내용을 입력하여 주세요."
             }
         ]
     }
