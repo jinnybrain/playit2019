@@ -17,8 +17,8 @@ const style = styled.div`
 
 
 const Modal = ({sessionDetail}) => {
-    const contextList = sessionDetail.context.map ( item => (
-        <p>{item.value}</p>
+    const contextList = sessionDetail.context.map (( item , index ) => (
+        <p key={index}>{item.value}</p>
     ));
 
     const hide = () => {
@@ -45,7 +45,7 @@ const Modal = ({sessionDetail}) => {
                         </div>
                         <div id="closeModal" onClick={hide} className="close-modal" data-dismiss="modal">
                         <div className="lr">
-                            <div class="rl"></div>
+                            <div className="rl"></div>
                         </div>
                         </div>
                     </div>

@@ -3,9 +3,9 @@ import Schedules from '../information/schedules.json';
 
 class Schedule extends Component {
     render() {
-        const schedules = Schedules.map((schedule) => {
+        const schedules = Schedules.map((schedule,index) => {
             if(schedule.part) {
-                return (<tr style={{borderTop:'solid 1px #d9d9d9', height:'75px'}}>
+                return (<tr key={index} style={{borderTop:'solid 1px #d9d9d9', height:'75px'}}>
                                         <td>
                                             {schedule.timeRange}
                                         </td>
@@ -16,7 +16,7 @@ class Schedule extends Component {
                                     </tr>)
                                     }
              else {
-                  return (<tr style={{borderTop:'solid 1px #d9d9d9', height:'75px'}}>
+                  return (<tr key={index} style={{borderTop:'solid 1px #d9d9d9', height:'75px'}}>
                                         <td>{schedule.timeRange}</td>
                                         <td>
                                             <div style={{width:'60%',float:'left'}}>{schedule.subject}</div>
