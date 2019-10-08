@@ -1,0 +1,72 @@
+[
+    {
+        "timeRange" : "~ 09:00",
+        "subject" : "REGISTER", 
+        "speaker" : "REGISTER DESK",
+        "part" : "",
+        "team" : ""
+    },
+    {
+        "timeRange" : "09:00 - 10:00",
+        "subject" : "KEY NOTE", 
+        "speaker" : "이현진",
+        "part" : "연구실",
+        "team" : "기반기술개발팀"
+    },
+    {
+        "timeRange" : "10:00 - 11:00",
+        "subject" : "구슬 VS 목걸이", 
+        "speaker" : "김정훈",
+        "part" : "솔루션사업부 개발파트",
+        "team" : "솔루션개발팀"
+    },
+    {
+        "timeRange" : "11:00 - 12:00",
+        "subject" : "미술 VS 프로그래밍", 
+        "speaker" : "전강태",
+        "part" : "솔루션사업부 개발파트",
+        "team" : "약국개발팀"
+    },
+    {
+        "timeRange" : "12:00 - 13:00",
+        "subject" : "점심 식사", 
+        "speaker" : "PIZZA TIME",
+        "part" : "",
+        "team" : ""
+    },
+    {
+        "timeRange" : "13:00 - 14:00",
+        "subject" : "모바일 앱에 재미료 한 스푼", 
+        "speaker" : "김동욱",
+        "part" : "연구실",
+        "team" : "클라우드 EMR팀"
+    },
+    {
+        "timeRange" : "14:00 - 15:00",
+        "subject" : "왜 우리는 원격진료를 하지 않는가?", 
+        "speaker" : "김의수",
+        "part" : "솔루션사업부 개발파트",
+        "team" : "제품개발팀"
+    },
+    {
+        "timeRange" : "15:00 - 17:00",
+        "subject" : "PLAY GAME", 
+        "speaker" : "유비케어 구성원",
+        "part" : "",
+        "team" : ""
+    },
+    {
+        "timeRange" : "17:00 - 18:00",
+        "subject" : "시상식", 
+        "speaker" : "PLAY IT 운영 위원회",
+        "part" : "",
+        "team" : ""
+    },
+    {
+        "timeRange" : "18:00 ~",
+        "subject" : "폐회", 
+        "speaker" : "행사장 정리 및 귀가",
+        "part" : "",
+        "team" : ""
+    }
+]
