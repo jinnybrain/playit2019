@@ -11,7 +11,7 @@ class About extends Component {
                             <h5>2019년 11월 5일 금요일</h5>
                         </div>
                         <div className={'col-sm-12 text-left'} >
-                            <h5> COEX Grand Ballroom, Seoul  </h5>
+                            <h5>서울특별시 종로구 관철동 45-1 마이크임팩트 12층</h5>
                         </div>
                         <div className={'col-sm-12 text-left'} >
                             <h5>  09:00 - 17:00 </h5>

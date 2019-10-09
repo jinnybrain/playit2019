@@ -2,7 +2,7 @@
     {
         "timeRange" : "09:00 - 09:20",
         "subject" : "입장", 
-        "speaker" : "",
+        "speaker" : "-",
         "part" : "",
         "team" : ""
     },
@@ -37,7 +37,7 @@
     {
         "timeRange" : "11:30 - 13:00",
         "subject" : "Lunch Time", 
-        "speaker" : "",
+        "speaker" : "-",
         "part" : "",
         "team" : ""
     },
@@ -51,7 +51,7 @@
     {
         "timeRange" : "14:00 - 14:30",
         "subject" : "미술 VS 프로그래밍", 
-        "speaker" : "",
+        "speaker" : "전강태",
         "part" : "",
         "team" : ""
     },
@@ -65,7 +65,7 @@
     {
         "timeRange" : "15:00 ~ 15:15",
         "subject" : "휴식", 
-        "speaker" : "",
+        "speaker" : "-",
         "part" : "",
         "team" : ""
     },
@@ -86,21 +86,21 @@
     {
         "timeRange" : "16:00 ~ 17:00",
         "subject" : "무엇이든 물어 보세요", 
-        "speaker" : "",
+        "speaker" : "김한성",
         "part" : "",
         "team" : ""
     },
     {
         "timeRange" : "17:00 ~ 17:30",
         "subject" : "경품 행사 & 사진 촬영", 
-        "speaker" : "",
+        "speaker" : "-",
         "part" : "",
         "team" : ""
     },
     {
         "timeRange" : "17:30 ~ ",
         "subject" : "폐회", 
-        "speaker" : "",
+        "speaker" : "-",
         "part" : "",
         "team" : ""
     }
