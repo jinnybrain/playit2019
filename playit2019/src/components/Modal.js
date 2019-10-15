@@ -25,18 +25,38 @@ const Modal = ({sessionDetail}) => {
         document.getElementById('sessionDetail').style.display = 'none';
     }
 
+
+    const commonStyle = {
+        marginLeft:'auto',
+        marginRight:'auto',
+        marginTop:'auto',
+        float:'left',
+        left:'25%',
+        width: '50%',
+        display:'block',
+        top:'10%'
+    }
+
+    const mobileModalStyle = {
+        width: '100%',
+        display:'block',
+        top:'10%'
+    }
+
+    const modalStyle = document.body.offsetWidth > 720 ? commonStyle: mobileModalStyle;
+    const imageHeight = document.body.offsetWidth > 720 ? '100px' : '70px';
     const imagePath = 'img/speaker/' + sessionDetail.speaker + '.png';
 
         return (
             <div id="sessionDetail" style={{textAlign:'center', display:'none'}}>
-                <div className={'portfolio-modal modal fade show'} style={{marginLeft:'auto', marginRight:'auto', margintop:'auto', width:'50%', float:'left', left:'25%', display:'block', top:'10%'}}>
+                <div className={'portfolio-modal modal fade show'} style={modalStyle}>
                     <div style={{verticalAlign:'middle'}}>
                         <div className={'modal-content'} style={{textAlign:'left'}}>
                             <div style={{marginLeft:'20px', marginRight:'20px'}}>
                             <h4>{sessionDetail.subject}</h4>
                             {contextList}
                             <div style={{marginTop:'40px'}}>
-                                <img style={{float:'left' , height:'100px'}} src={imagePath} />
+                                <img style={{float:'left' , height:imageHeight}} src={imagePath} />
                                 <div style={{float:'left',  marginLeft:'25px'}}>
                                 <h5>{sessionDetail.speakerName} </h5><h6>{sessionDetail.part}  {sessionDetail.team}</h6>
                                 <p>{sessionDetail.role} </p></div>
