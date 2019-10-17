@@ -18,7 +18,7 @@ class Celebration extends Component {
                     </div>
 
                     <div className={'row'} style={{color:'#312d3e', marginBottom:'70px', float:'left', width:'100%'}} >
-                        <img src={message1} style={{display:'block',  width:'70%'}}  />
+                        <img src={message1} style={{display:'block',  width:'60%'}}  />
                     </div>
                 </div>
             </div>
