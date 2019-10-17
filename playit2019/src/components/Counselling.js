@@ -8,7 +8,7 @@ class Counselling extends Component {
         return (
             <div className={'container'} style={{marginTop:'150px', marginBottom:'50px'}}>
                 <div className={'col-lg-12 text-left'}>
-                    <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>고민 상담소</h2>
+                    <h2 className={'section-heading text-uppercase'} style={{color:'#F05125'}}>고민 상담소</h2>
                     
                     <div className={'row'} style={{color:'#312d3e', marginTop:'20px', fontWeight:'50'}} >
 
