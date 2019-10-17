@@ -5,7 +5,7 @@ class Location extends Component {
         return (
             <div className={'container'} style={{marginTop:'150px', marginBottom:'50px'}}>
                 <div className={'col-lg-12 text-left'}>
-                    <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>Location</h2>
+                    <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>위치</h2>
                     <div className={'row'} style={{color:'#312d3e', marginTop:'20px'}} >
                         <div className={'col-sm-12 text-left'} >
                             <h5>서울특별시 종로구 관철동 45-1</h5>

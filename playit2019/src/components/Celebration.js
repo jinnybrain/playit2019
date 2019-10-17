@@ -8,7 +8,7 @@ class Celebration extends Component {
         return (
             <div className={'container'} style={{marginTop:'150px', marginBottom:'50px'}}>
                 <div className={'col-lg-12 text-left'}>
-                    <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>Celebration Messages 🎉</h2>
+                    <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>축하 메시지 🎉</h2>
                     <div className={'row'} style={{color:'#312d3e', marginTop:'50px', marginBottom:'70px', float:'left'}} >
                         <img src={message0} style={{display:'block', width:'60%'}}  />
                     </div>

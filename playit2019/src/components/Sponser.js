@@ -9,7 +9,7 @@ class Sponser extends Component {
         return (
             <div className={'container'} style={{marginTop:'150px', marginBottom:'50px'}}>
                 <div className={'col-lg-12 text-left'}>
-                    <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>Sponsors</h2>
+                    <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>후원</h2>
                     <div className={'row'} style={{color:'#312d3e', marginTop:'40px'}} >
                         <img src={CultureInnovationImg} style={{width:'300px', display:'block', marginLeft:'auto', marginRight:'auto'}}  />
                     </div>

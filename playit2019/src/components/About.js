@@ -5,7 +5,7 @@ class About extends Component {
         return (
             <div className={'container'}>
                 <div className={'col-lg-12 text-left'}>
-                    <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>About</h2>
+                    <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>일시</h2>
                     <div className={'row'} style={{color:'#312d3e', marginTop:'20px', fontWeight:'50'}} >
                         <div className={'col-sm-12 text-left'} >
                             <h4 style={{fontWeight:100}}>2019년 11월 5일 금요일</h4>
