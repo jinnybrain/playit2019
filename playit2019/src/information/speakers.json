@@ -10,15 +10,22 @@
         "name" :"김정훈",
         "imagePath" : "img/speaker/speaker_jephrix.png",
         "position" : "구슬 vs 목걸이",
-        "part":"솔루션 사업부 개발파트",
+        "part":"솔루션사업부 개발파트",
         "team" : "솔루션개발팀"
       },     
       {
         "name" :"전강태",
         "imagePath" : "img/speaker/speaker_lewisjhon.png",
         "position" : "미술 vs 프로그래밍",
-        "part":"솔루션 사업부 개발파트",
+        "part":"솔루션사업부 개발파트",
         "team" : "약국개발팀"
+      },
+      {
+        "name" :"김의수",
+        "imagePath" : "img/speaker/speaker_kimesoo.png",
+        "position" : "왜 우리는 원격진료를 하지 않는가?",
+        "part":"솔루션사업부 개발파트",
+        "team" : "제품개발팀"
       },     
       {
         "name" :"김동욱",
@@ -26,13 +33,5 @@
         "position" : "모바일 앱에 재미료 한 스푼",
         "part":"연구실",
         "team" : "클라우드EMR팀"
-      }, 
-      {
-        "name" :"김의수",
-        "imagePath" : "img/speaker/speaker_kimesoo.png",
-        "position" : "왜 우리는 원격진료를 하지 않는가?",
-        "part":"솔루션사업부/개발파트",
-        "team" : "제품개발팀"
       }
-      
 ]

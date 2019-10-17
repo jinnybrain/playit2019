@@ -29,7 +29,7 @@ class Schedule extends Component {
         return (
             <div className={'container'} style={{marginTop:'150px', marginBottom:'50px'}}>
                 <div className={'col-lg-12 text-left'}>
-                    <h2 className="section-heading text-uppercase" style={{color:'#ff5d00'}}>Schedule</h2>
+                    <h2 className="section-heading text-uppercase" style={{color:'#ff5d00'}}>일정 계획</h2>
                     <div className ={'row'}>
                         <table className={'container'} style={{marginTop:'30px'}}>
                             <tbody>

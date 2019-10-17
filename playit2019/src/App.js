@@ -9,6 +9,7 @@ import Sponser from './components/Sponser';
 import Modal from './components/Modal';
 import SpeakersInfo from './information/speakers.json';
 import Celebration from './components/Celebration';
+import Counselling from './components/Counselling';
 
 
 class App extends React.Component {
@@ -20,9 +21,10 @@ render(){
       <About/>
       <Schedule/>
       <Speakers data={SpeakersInfo} />
+      <Counselling/>
       <Location/>
-      <CodeOfConduct/>
       <Celebration/>
+      <CodeOfConduct/>
       <Sponser/>
       <Modal/>
     </React.Fragment>
