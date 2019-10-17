@@ -53,7 +53,7 @@ const Modal = ({sessionDetail}) => {
                     <div style={{verticalAlign:'middle'}}>
                         <div className={'modal-content'} style={{textAlign:'left'}}>
                             <div style={{marginLeft:'20px', marginRight:'20px'}}>
-                            <h4>{sessionDetail.subject}</h4>
+                            <h4 style={{color:'#f77f07'}}>{sessionDetail.subject}</h4>
                             {contextList}
                             <div style={{marginTop:'40px'}}>
                                 <img style={{float:'left' , height:imageHeight}} src={imagePath} />

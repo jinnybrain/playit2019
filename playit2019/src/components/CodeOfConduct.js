@@ -6,7 +6,7 @@ class CodeOfConduct extends Component {
             <div className={'container'} style={{marginTop:'150px', marginBottom:'50px', width:'100%'}}>
                 <div className={'col-lg-12'} style={{width:'100%'}}>
                     <div className={'row'} style={{color:'#312d3e', marginTop:'20px', width:'100%'}} >
-                    <h2 className={'section-heading text-uppercase'} style={{color:'#ff5d00'}}>참석자 행동지침</h2>
+                    <h2 className={'section-heading text-uppercase'} style={{color:'#F05125'}}>참석자 행동지침</h2>
 
                         <div className={'col-sm-12 text-left'} style={{marginTop:'10px'}} >
                             <h4 style={{fontWeight:100}}>😄 행사에 참석한 모든 분들은 나이, 성별, 직급, 직책, 근속 연차에 관계없이 모두 동등한 관계입니다. 서로를 존중해주세요.</h4>
