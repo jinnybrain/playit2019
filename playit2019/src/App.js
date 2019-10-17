@@ -24,7 +24,7 @@ render(){
       <Counselling/>
       <Location/>
       <Celebration/>
-      <CodeOfConduct/>
+      
       <Sponser/>
       <Modal/>
     </React.Fragment>
