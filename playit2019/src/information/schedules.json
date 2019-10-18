@@ -1,106 +1,106 @@
 [
     {
-        "timeRange" : "09:00 - 09:20",
+        "timeRange" : "09:00~09:20",
         "subject" : "입장", 
-        "speaker" : "-",
+        "speaker" : "",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "09:20 - 09:30",
+        "timeRange" : "09:20~09:30",
         "subject" : "Keynote", 
         "speaker" : "김한성",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "09:30 - 10:30",
+        "timeRange" : "09:30~10:30",
         "subject" : "너와! 나의! 연결! 고리!", 
         "speaker" : "김한성",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "10:30 - 11:00",
+        "timeRange" : "10:30~11:00",
         "subject" : "위기로운 회사 생활", 
         "speaker" : "이현진",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "11:00 - 11:30",
+        "timeRange" : "11:00~11:30",
         "subject" : "구슬 VS 목걸이", 
         "speaker" : "김정훈",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "11:30 - 13:00",
+        "timeRange" : "11:30~13:00",
         "subject" : "Lunch Time", 
-        "speaker" : "-",
+        "speaker" : "",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "13:00 - 14:00",
+        "timeRange" : "13:00~14:00",
         "subject" : "이건! 우리! 안의! 소리!", 
-        "speaker" : "김한성",
+        "speaker" : "사회자",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "14:00 - 14:30",
+        "timeRange" : "14:00~14:30",
         "subject" : "미술 VS 프로그래밍", 
         "speaker" : "전강태",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "14:30 - 15:00",
+        "timeRange" : "14:30~15:00",
         "subject" : "왜 우리는 원격진료를 하지 않는가?", 
         "speaker" : "김의수",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "15:00 ~ 15:15",
+        "timeRange" : "15:00~15:15",
         "subject" : "휴식", 
-        "speaker" : "-",
+        "speaker" : "",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "15:15 ~ 15:30",
+        "timeRange" : "15:15~15:30",
         "subject" : "연예인 초청 행사", 
         "speaker" : "미정",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "15:30 ~ 16:00",
+        "timeRange" : "15:30~16:00",
         "subject" : "모바일 앱에 재미료 한 스푼", 
         "speaker" : "김동욱",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "16:00 ~ 17:00",
+        "timeRange" : "16:00~17:00",
         "subject" : "슬기로운 고민상담소", 
-        "speaker" : "김한성",
+        "speaker" : "사회자",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "17:00 ~ 17:30",
+        "timeRange" : "17:00~17:30",
         "subject" : "경품 행사 & 사진 촬영", 
-        "speaker" : "-",
+        "speaker" : "",
         "part" : "",
         "team" : ""
     },
     {
-        "timeRange" : "17:30 ~ ",
+        "timeRange" : "17:30~",
         "subject" : "폐회", 
-        "speaker" : "-",
+        "speaker" : "",
         "part" : "",
         "team" : ""
     }
