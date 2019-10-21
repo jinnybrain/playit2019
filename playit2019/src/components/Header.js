@@ -11,7 +11,7 @@ class Header extends Component {
 
                     <div className={'intro-text'}>
                          <div>
-                            <img src={MainLogo} style={{width:'400px'}} />
+                            <img src={MainLogo} style={{width:'290px'}} />
                         </div> 
                     </div>
                 </div>
