@@ -14,7 +14,7 @@ class About extends Component {
                             <h5 style={{fontWeight:100}}>서울특별시 종로구 관철동 45-1 마이크임팩트 12층</h5>
                         </div>
                         <div className={'col-sm-12 text-left'} >
-                            <h5 style={{fontWeight:100}}>  09:00 - 17:00 </h5>
+                            <h5 style={{fontWeight:100}}>  09:00 - 18:00 </h5>
                         </div>
                     </div>
                 </div>
