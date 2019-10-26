@@ -10,6 +10,7 @@ import Modal from './components/Modal';
 import SpeakersInfo from './information/speakers.json';
 import Celebration from './components/Celebration';
 import Counselling from './components/Counselling';
+import FBComments from './components/FBComments';
 
 
 class App extends React.Component {
@@ -24,8 +25,8 @@ render(){
       <Counselling/>
       <Location/>
       <Celebration/>
-      
       <Sponser/>
+      <FBComments/>
       <Modal/>
     </React.Fragment>
   );
