@@ -8,10 +8,10 @@ class Location extends Component {
                     <h2 className={'section-heading text-uppercase'} style={{color:'#F05125'}}>오시는 길</h2>
                     <div className={'row'} style={{color:'#312d3e', marginTop:'20px'}} >
                         <div className={'col-sm-12 text-left'} >
-                            <h5>레디:스페이스 (LEDy space)</h5>
+                            <h5 style={{fontWeight:100}}>레디:스페이스 (LEDy space)</h5>
                         </div>
                         <div className={'col-sm-12 text-left'} >
-                            <h5>서울시 구로구 구로동 197-21 번지 태평양물산 1층</h5>
+                            <h5 style={{fontWeight:100}}>서울시 구로구 구로동 197-21 번지 태평양물산 1층</h5>
                         </div>
                         
                         <div style={{width:'100%'}}>
